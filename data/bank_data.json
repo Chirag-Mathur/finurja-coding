@@ -1,0 +1,46 @@
+{
+    "banks": [
+        {
+            "name": "HDFC BANK",
+            "type:": "Savings AC",
+            "account": "XX3845",
+            "balance": 54000.0,
+            "logo": "https://i0.wp.com/logotaglines.com/wp-content/uploads/2016/08/HDFC_Bank_Logo-e1470986841531.jpg?fit=300%2C382&ssl=1",
+            "tranactions": [
+                {
+                    "name": "ATM Withdrawl",
+                    "type": "Debit",
+                    "amount": 6500.0,
+                    "date": "2012-04-23T18:25:43.511Z"
+                },
+                {
+                    "name": "ATM Deposit",
+                    "type": "Credit",
+                    "amount": 6500.0,
+                    "date": "2012-04-25T18:25:43.511Z"
+                }
+            ]
+        },
+        {
+            "name": "Federal BANK",
+            "type:": "Savings AC",
+            "account": "XX3845",
+            "balance": 54000.0,
+            "logo": "https://blogmedia.testbook.com/blog/wp-content/uploads/2022/03/federal-bank-logo-9d94fcdd.jpg",
+            "tranactions": [
+                {
+                    "name": "ATM Withdrawl",
+                    "type": "Debit",
+                    "amount": 6500.0,
+                    "date": "2012-04-23T18:25:43.511Z"
+                },
+                {
+                    "name": "ATM Deposit",
+                    "type": "Credit",
+                    "amount": 6500.0,
+                    "date": "2012-04-25T18:25:43.511Z"
+                }
+            ]
+        }
+    ]
+}
