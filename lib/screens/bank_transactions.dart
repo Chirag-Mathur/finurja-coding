@@ -64,7 +64,15 @@ class _BankTransactionsScreenState extends State<BankTransactionsScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Center(child: Text('Bank Transactions')),
+        title: const Center(child: Text('Transactions')),
+        actions: [
+          IconButton(
+            onPressed: () {},
+            icon: Icon(
+              Icons.more_vert,
+            ),
+          ),
+        ],
       ),
       body: Padding(
         padding: const EdgeInsets.all(8.0),
@@ -266,6 +274,19 @@ class _BankTransactionsScreenState extends State<BankTransactionsScreen> {
                                                       values.end.toInt();
                                                 });
                                               },
+                                            ),
+                                            Padding(
+                                              padding:
+                                                  const EdgeInsets.symmetric(
+                                                horizontal: 20.0,
+                                              ),
+                                              child: Row(
+                                                children: [
+                                                  Text("₹ 0"),
+                                                  Spacer(),
+                                                  Text("₹ 1L +")
+                                                ],
+                                              ),
                                             ),
                                             Row(
                                               mainAxisAlignment:

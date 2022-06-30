@@ -34,9 +34,13 @@ class BankTransactionTile extends StatelessWidget {
                         ),
                       ),
                       SizedBox(width: 10),
-                      Icon(
-                        Icons.arrow_upward,
-                        color: Colors.green,
+                      SizedBox(
+                        width: 10,
+                        child: ImageIcon(
+                          NetworkImage(
+                              "https://cdn-icons-png.flaticon.com/512/60/60571.png"),
+                          color: Colors.green,
+                        ),
                       ),
                     ],
                   )
@@ -51,9 +55,14 @@ class BankTransactionTile extends StatelessWidget {
                         ),
                       ),
                       SizedBox(width: 10),
-                      Icon(
-                        Icons.arrow_downward,
-                        color: Colors.red,
+                      SizedBox(
+                        width: 10,
+                        child: ImageIcon(
+                          NetworkImage(
+                            "https://cdn-icons-png.flaticon.com/512/60/60947.png",
+                          ),
+                          color: Colors.red,
+                        ),
                       ),
                     ],
                   ),

@@ -1,7 +1,7 @@
 {
     "banks": [
         {
-            "name": "HDFC BANK",
+            "name": "HDFC Bank",
             "type:": "Savings AC",
             "account": "XX3845",
             "balance": 54000.0,
@@ -52,7 +52,7 @@
             ]
         },
         {
-            "name": "Federal BANK",
+            "name": "Federal Bank",
             "type:": "Savings AC",
             "account": "XX3845",
             "balance": 54000.0,

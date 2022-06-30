@@ -36,7 +36,19 @@ class _BankListScreenState extends State<BankListScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Center(child: Text('All Bank Accounts')),
+        title: const Center(
+          child: Text(
+            'All Bank Accounts',
+          ),
+        ),
+        actions: [
+          IconButton(
+            onPressed: () {},
+            icon: Icon(
+              Icons.more_vert,
+            ),
+          ),
+        ],
       ),
       body: _isLoading
           ? const Center(child: CircularProgressIndicator())
