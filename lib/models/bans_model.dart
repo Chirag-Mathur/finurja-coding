@@ -38,7 +38,7 @@ class Bank {
     String name;
     String type;
     String account;
-    int balance;
+    double balance;
     String logo;
     List<Tranaction> tranactions;
 
@@ -71,7 +71,7 @@ class Tranaction {
 
     String name;
     String type;
-    int amount;
+    double amount;
     DateTime date;
 
     factory Tranaction.fromJson(Map<String, dynamic> json) => Tranaction(

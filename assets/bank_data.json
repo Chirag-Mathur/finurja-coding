@@ -15,9 +15,39 @@
                 },
                 {
                     "name": "ATM Deposit",
+                    "type": "Debit",
+                    "amount": 6500.0,
+                    "date": "2012-04-25T18:25:43.511Z"
+                },
+                {
+                    "name": "ATM Withdrawl 2",
+                    "type": "Credit",
+                    "amount": 6500.0,
+                    "date": "2012-04-23T18:25:43.511Z"
+                },
+                {
+                    "name": "ATM Deposit 2",
                     "type": "Credit",
                     "amount": 6500.0,
                     "date": "2012-04-25T18:25:43.511Z"
+                },
+                {
+                    "name": "ATM Withdrawl 3",
+                    "type": "Debit",
+                    "amount": 6500.0,
+                    "date": "2012-04-23T18:25:43.511Z"
+                },
+                {
+                    "name": "ATM Deposit 3",
+                    "type": "Credit",
+                    "amount": 6500.0,
+                    "date": "2012-04-25T18:25:43.511Z"
+                },
+                {
+                    "name": "ATM Deposit 4",
+                    "type": "Credit",
+                    "amount": 6500.0,
+                    "date": "2012-04-15T18:25:43.511Z"
                 }
             ]
         },
